@@ -1,6 +1,7 @@
 #include "stdio.h"
 
 int main(void) {
-  printf("Hi there\n");
+  char a[100]="andy is the greatest!";
+  printf("%s",a);
   return 0;
 }
